@@ -1,0 +1,28 @@
+{
+	"name": "mytodoapplication",
+	"version": "1.0.0",
+	"description": "My To Do Application",
+	"scripts": {
+		"test": "jest",
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/simran5994/myToDoApplication.git"
+	},
+	"author": "Shimran Panigrahi",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/simran5994/myToDoApplication/issues"
+	},
+	"homepage": "https://github.com/simran5994/myToDoApplication#readme",
+	"devDependencies": {
+		"parcel": "^2.12.0",
+		"process": "^0.11.10"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}

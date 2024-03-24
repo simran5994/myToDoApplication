@@ -1,0 +1,32 @@
+.board {
+	border: 1px solid black;
+	height: 1000px;
+	padding: 20px;
+	text-align: center;
+}
+
+.inside {
+	display: flex;
+	flex-direction: row;
+}
+.cols {
+	width: 33.33%;
+	padding: 2px;
+	border: 1px solid gray;
+	background-color: rgb(199, 177, 177);
+}
+
+.ticket {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+.ticket1 {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+.ticket:hover {
+	border: 3px solid black;
+	cursor: pointer;
+}
