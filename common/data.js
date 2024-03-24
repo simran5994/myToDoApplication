@@ -1,4 +1,4 @@
-const data = [
+export const data1 = [
 	{ id: "1", taskName: "Singing", status: "To_Do" },
 	{ id: "2", taskName: "Reading", status: "To_Do" },
 	{ id: "3", taskName: "Slapping", status: "To_Do" },
@@ -9,4 +9,13 @@ const data = [
 	{ id: "8", taskName: "Cleaning", status: "Completed" },
 ];
 
-export default data;
+export const listData = [
+	"Singing",
+	"Reading",
+	"Slapping",
+	"##ing",
+	"TV",
+	"Sleeping",
+	"Cooking",
+	"Cleaning",
+];

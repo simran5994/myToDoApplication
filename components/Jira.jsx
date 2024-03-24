@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import data1 from "../common/data";
+import { data1 } from "../common/data";
 
 const Jira = () => {
 	const [data, setData] = useState([]);

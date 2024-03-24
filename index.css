@@ -5,15 +5,44 @@
 	text-align: center;
 }
 
+.view {
+	border: 1px solid black;
+	padding: 20px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	overflow: scroll;
+	height: 800px;
+}
+
 .inside {
 	display: flex;
 	flex-direction: row;
+}
+
+.inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.inner-header {
+	display: flex;
+	justify-content: center;
+	margin: 0px 1px 10px;
 }
 .cols {
 	width: 33.33%;
 	padding: 2px;
 	border: 1px solid gray;
 	background-color: rgb(199, 177, 177);
+}
+
+.rows {
+	padding: 2px;
+	border: 1px solid gray;
+	background-color: #ebe8e8;
+	padding: 2px;
+	margin: 20px 0px;
 }
 
 .ticket {
@@ -28,5 +57,20 @@
 }
 .ticket:hover {
 	border: 3px solid black;
+	cursor: pointer;
+}
+
+.cart {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.delete {
+	margin: 20px;
+	cursor: pointer;
+}
+.check {
 	cursor: pointer;
 }
